@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Java / IDE
+*.class
+**/bin/
+**/out/
+**/build/
+*.jar
+*.iml
+.idea/
+.vscode/
+
+# C / compilacao
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dSYM/
+
+# Segredos e arquivos de ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Sistema e temporarios
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+~$*
